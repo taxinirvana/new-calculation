@@ -27,6 +27,7 @@ public class BonusServiceTest {
 
         assertEquals(expected, actual);
     }
+
     @Test
     void shouldCalculateForRegisteredAndOverLimit() {
         BonusService service = new BonusService();
@@ -38,6 +39,7 @@ public class BonusServiceTest {
 
         assertEquals(expected, actual);
     }
+
     @Test
     void shouldCalculateForUnregisteredAndUnderLimit() {
         BonusService service = new BonusService();
@@ -49,6 +51,7 @@ public class BonusServiceTest {
 
         assertEquals(expected, actual);
     }
+
     @Test
     void shouldCalculateForUnregisteredAndOverLimit() {
         BonusService service = new BonusService();
@@ -60,6 +63,7 @@ public class BonusServiceTest {
 
         assertEquals(expected, actual);
     }
+
     @Test
     void ShouldCalculatedForUnregisteredAndMinimumAmount() {
         BonusService service = new BonusService();
